@@ -12,4 +12,4 @@ The runner asserts ten local fixtures and prints their verdicts. The passing cas
 
 `oracle.py` and `run_probes.py` use the Python standard library and contain no controller address, vendor connection, PLC language, machine command or network call. The thresholds and times are fictional. A qualified site owner must write actual requirements and choose independent measurements. A real safety function has its own specification, validation, change authority and qualified acceptance; none of that is certified by this example.
 
-See the [Week 05 field-note companion](../../weeks/05/README.md) for the full evidence ladder and proposed offline/isolated-bench probes. The master article link will be added after the corrected overview film and journal article are independently read back as Public.
+See the [Week 05 field-note companion](../../weeks/05/README.md) for the full evidence ladder and proposed offline/isolated-bench probes, and the [Public master article](https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/) for the full argument and corrected overview film.
