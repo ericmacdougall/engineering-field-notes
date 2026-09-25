@@ -1,6 +1,10 @@
 # Week 05 — AI in industrial control needs physical evidence
 
-**Release state:** Eric approved the corrected overview film and article editorially. The corrected [overview film is Public on YouTube](https://www.youtube.com/watch?v=8O5u2a5i6KE), with its watch page, captions and synthetic-voice disclosure read back on September 25, 2026. The journal article remains unpublished while this companion and the live-site checks complete. The 28 approved original written reads are already live as text-only field notes. Add the article link here only after its journal route is read back.
+<!-- ARTICLE_START -->
+**Article:** [AI in industrial control needs physical evidence](https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/) · released 2026-09-25 Pacific time.
+<!-- ARTICLE_END -->
+
+Eric approved the corrected overview film and article editorially. The corrected [overview film is Public on YouTube](https://www.youtube.com/watch?v=8O5u2a5i6KE), with its watch page, captions and synthetic-voice disclosure read back on September 25, 2026. The journal article, transcript and all 28 approved original written reads were independently read back on the live site. Social premieres follow their separate calendar.
 
 ## The claim
 
@@ -17,4 +21,4 @@ Run `python examples/physical-evidence-oracle/run_probes.py` from the repository
 
 ## Publication rule
 
-The approved written reads may appear on the journal independently of this master article. Publish this week's article only after this companion folder and README are Public, the approved article and film fingerprints still match, and the production build and live article readback pass. The corrected film's Public watch-page, transcript and disclosure have been verified. Social premieres follow their separate calendar. Reference recuts and bonus build tracks need separate approval.
+The approved written reads can appear on the journal independently of the master article. This master passed the Public companion, film, fingerprint, production-build and live-article checks on September 25, 2026. Reference recuts and bonus build tracks still need separate approval.
