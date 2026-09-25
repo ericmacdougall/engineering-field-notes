@@ -1,16 +1,17 @@
 # Engineering Field Notes
 
-Working examples and decision records for [Eric MacDougall's forthcoming field notes](https://ericmacdougall.com/). Each note starts with a problem encountered in agentic software work, then shows a small control or experiment you can inspect. This repository keeps the scripts and their limits in one place.
+Working examples and decision records for [Eric MacDougall's field notes](https://ericmacdougall.com/). Each note starts with a problem encountered in agentic software work, then shows a small control or experiment you can inspect. This repository keeps the scripts and their limits in one place.
 
 ## Weekly field notes
 
 The article link and the week's tested additions are entered here **when that article is publicly released**. The same release updates its companion folder and links the repo from the article.
 
 <!-- RELEASES_START -->
-No field note has been publicly released yet. The first article and field kit are being prepared.
+- **2026-09-25 · Week 02: [Model consensus is not engineering evidence](https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/)** — [migration decision contract, decision packet and ten discriminating probes](weeks/02/README.md)
+- **2026-09-25 · Week 01: [Agents need an independent exam](https://ericmacdougall.com/journal/agents-need-an-independent-exam/)** — [agent harness and commerce acceptance contracts](weeks/01/README.md)
 <!-- RELEASES_END -->
 
-## Start with the first field kit
+## Approved companion material
 
 [Week 01 — Agents need an independent exam](weeks/01/README.md) connects the argument to two small, runnable examples:
 
@@ -20,6 +21,8 @@ No field note has been publicly released yet. The first article and field kit ar
 Run the hook tests with `python -m unittest discover -s examples/agent-harness -p test_harness.py -v`. Run the commerce negative control with `python examples/commerce-harness/run_contract.py` after installing `pytest`.
 
 The commerce example uses SQLite and a fake provider. The hook example tests the Python script directly. Neither result establishes production PostgreSQL/Stripe behavior, nor that a particular agent product invoked a hook in every local, cloud, or delegated route. Those are separate integration tests.
+
+[Week 02 — Model consensus is not engineering evidence](weeks/02/README.md) adds a synthetic migration decision contract, a durable decision packet and ten proposed probes. Its [contract runner](examples/migration-decision/README.md) compares owner-labeled state and audit outcomes with two deliberate faults. The example does not report a client migration or choose a real organization's policy.
 
 ## How this repo grows
 

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "week": 1,
+    "title": "Agents need an independent exam",
+    "article_url": "https://ericmacdougall.com/journal/agents-need-an-independent-exam/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-25T16:32:39Z",
+    "added": "agent harness and commerce acceptance contracts"
+  },
+  {
+    "week": 2,
+    "title": "Model consensus is not engineering evidence",
+    "article_url": "https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-25T16:32:39Z",
+    "added": "migration decision contract, decision packet and ten discriminating probes"
+  }
+]
