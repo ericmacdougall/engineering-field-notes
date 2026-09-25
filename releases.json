@@ -22,5 +22,13 @@
     "released_at_pt": "2026-09-25",
     "article_public_verified_at": "2026-09-25T17:20:43Z",
     "added": "model control contract, authority map and ten discriminating probes"
+  },
+  {
+    "week": 5,
+    "title": "AI in industrial control needs physical evidence",
+    "article_url": "https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-25T18:25:27Z",
+    "added": "physical-evidence oracle and ten discriminating probes"
   }
 ]

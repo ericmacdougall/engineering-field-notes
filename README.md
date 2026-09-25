@@ -7,6 +7,7 @@ Working examples and decision records for [Eric MacDougall's field notes](https:
 The article link and the week's tested additions are entered here **when that article is publicly released**. The same release updates its companion folder and links the repo from the article.
 
 <!-- RELEASES_START -->
+- **2026-09-25 · Week 05: [AI in industrial control needs physical evidence](https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/)** — [physical-evidence oracle and ten discriminating probes](weeks/05/README.md)
 - **2026-09-25 · Week 03: [Where model control actually lives](https://ericmacdougall.com/journal/where-model-control-actually-lives/)** — [model control contract, authority map and ten discriminating probes](weeks/03/README.md)
 - **2026-09-25 · Week 02: [Model consensus is not engineering evidence](https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/)** — [migration decision contract, decision packet and ten discriminating probes](weeks/02/README.md)
 - **2026-09-25 · Week 01: [Agents need an independent exam](https://ericmacdougall.com/journal/agents-need-an-independent-exam/)** — [agent harness and commerce acceptance contracts](weeks/01/README.md)
@@ -26,6 +27,8 @@ The commerce example uses SQLite and a fake provider. The hook example tests the
 [Week 02 — Model consensus is not engineering evidence](weeks/02/README.md) adds a synthetic migration decision contract, a durable decision packet and ten proposed probes. Its [contract runner](examples/migration-decision/README.md) compares owner-labeled state and audit outcomes with two deliberate faults. The example does not report a client migration or choose a real organization's policy.
 
 [Week 03 — Where model control actually lives](weeks/03/README.md) adds a synthetic model control contract, an authority map for host and provider tool loops, and ten proposed probes. Its [contract runner](examples/model-control-contract/README.md) catches typed-but-wrong choices and stale routes in owner-labeled fixtures. It does not claim a live Jev integration, provider hook, Kimi K3 benchmark or production business decision.
+
+[Week 05 — AI in industrial control needs physical evidence](weeks/05/README.md) adds a synthetic [physical-evidence oracle](examples/physical-evidence-oracle/README.md) and ten proposed probes. Its local runner passes ten owner-labeled fixture cases; it does not connect to a PLC, validate a safety function, run a vendor simulator or commission equipment.
 
 ## How this repo grows
 
