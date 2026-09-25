@@ -1,0 +1,5 @@
+{
+  "packet_id": "handoff-001",
+  "receiver": "fictional-implementation-agent",
+  "acknowledged_clause_ids": ["scope", "prerequisite", "reversal"]
+}

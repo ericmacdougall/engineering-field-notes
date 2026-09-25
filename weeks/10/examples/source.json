@@ -1,0 +1,21 @@
+{
+  "id": "fictional-pilot-decision-01",
+  "version": 2,
+  "tenant": "pilot-tenant-a",
+  "owner": "product-and-security-reviewers",
+  "expires_on": "2026-12-01",
+  "material_clauses": [
+    {
+      "id": "scope",
+      "text": "Only pilot-tenant-a may use the feature for ninety days."
+    },
+    {
+      "id": "prerequisite",
+      "text": "Security review must approve before external data enters the workflow."
+    },
+    {
+      "id": "reversal",
+      "text": "Disable access when the pilot expires or the owner revokes approval."
+    }
+  ]
+}

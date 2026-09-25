@@ -1,0 +1,21 @@
+{
+  "id": "handoff-001",
+  "source_id": "fictional-pilot-decision-01",
+  "source_version": 2,
+  "source_digest": "5ba7a18614fea3320653475d1e34623e13c97cb92e75b606bb44ca0aab7e4951",
+  "target_tenant": "pilot-tenant-a",
+  "material_clauses": [
+    {
+      "id": "scope",
+      "text": "Only pilot-tenant-a may use the feature for ninety days."
+    },
+    {
+      "id": "prerequisite",
+      "text": "Security review must approve before external data enters the workflow."
+    },
+    {
+      "id": "reversal",
+      "text": "Disable access when the pilot expires or the owner revokes approval."
+    }
+  ]
+}
