@@ -1,0 +1,7 @@
+provider,request_id,attempt_id,request_state,gpu_count,gpu_hour_usd,billed_gpu_minutes,queue_minutes,requested_topology,actual_topology,accepted
+LowSticker,L-001,L-001-a,accepted,8,2.00,480,18,connected-8,connected-8,false
+LowSticker,L-001,L-001-b,accepted,8,2.00,420,16,connected-8,connected-8,true
+LowSticker,L-002,L-002-a,accepted,8,2.00,300,32,connected-8,scattered-8,false
+LowSticker,L-002,L-002-b,accepted,8,2.00,420,20,connected-8,connected-8,true
+FitForJob,F-001,F-001-a,accepted,8,2.80,380,8,connected-8,connected-8,true
+FitForJob,F-002,F-002-a,accepted,8,2.80,370,10,connected-8,connected-8,true
