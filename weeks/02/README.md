@@ -1,7 +1,7 @@
 # Week 02 — Model consensus is not engineering evidence
 
 <!-- ARTICLE_START -->
-**Article:** Eric approved the article and overview film on 2026-09-25 and authorized immediate journal publication of approved Week 01 and Week 02 work. Add the article URL here and to the root README after its live site readback.
+**Article:** [Model consensus is not engineering evidence](https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/) · released 2026-09-25 Pacific time.
 <!-- ARTICLE_END -->
 
 ## The claim
