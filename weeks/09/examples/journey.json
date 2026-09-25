@@ -1,0 +1,7 @@
+{
+  "request_id": "fictional-role-change-017",
+  "tenant": "test-tenant-a",
+  "account": "fictional-employee-7",
+  "action_trace_id": "synthetic-trace-017",
+  "visible_toast": "Saved"
+}

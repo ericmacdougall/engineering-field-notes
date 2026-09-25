@@ -1,0 +1,6 @@
+{
+  "tenant": "test-tenant-a",
+  "account": "fictional-employee-7",
+  "effective_role": "reviewer",
+  "unauthorized_action_denied": true
+}
