@@ -1,7 +1,7 @@
 # Week 03 — Where model control actually lives
 
 <!-- ARTICLE_START -->
-**Article:** pending public journal readback.
+**Article:** [Where model control actually lives](https://ericmacdougall.com/journal/where-model-control-actually-lives/) · released 2026-09-25 Pacific time.
 <!-- ARTICLE_END -->
 
 ## The claim
@@ -18,8 +18,8 @@ Typed output, logit masks, host hooks, business authority, tool permissions, obs
 
 The runnable example proves only its owner-labeled synthetic cases and deliberate mutations. It does not call Jev, implement token masking, enforce an actual coding-agent hook, validate a provider's inner loop, benchmark Kimi K3, or settle a real refund. The article cites the primary documentation and makes those boundaries explicit. Promote a proposed control only after its own real integration and independent state readback are observed.
 
-The approved 5:13 overview film and exact spoken transcript will be linked from the journal article after the Public YouTube watch page is verified. The Kimi K3 figures discussed there—2.8T total parameters and 104B activated per token—are vendor specifications and memory arithmetic, not a local speed benchmark. A typed Jev choice or grammar can constrain form; the service must still own business action permission and read back its outcome.
+The approved [5:13 overview film](https://www.youtube.com/watch?v=pPL3ymAZ-rI) and exact spoken transcript are linked from the live journal article. The Kimi K3 figures discussed there—2.8T total parameters and 104B activated per token—are vendor specifications and memory arithmetic, not a local speed benchmark. A typed Jev choice or grammar can constrain form; the service must still own business action permission and read back its outcome.
 
 ## Publication rule
 
-This companion is prepared for Eric's approved Week 03 article. The journal can publish the approved article and original written reads when the overview film is Public, this folder is Public and read back, the approved fingerprints match, and the site build/live readback pass. Social premieres run on their own schedule; reference recuts require separate approval.
+The Week 03 article, overview and 28 original written reads were approved by Eric and independently read back on the public journal. Approved written reads can publish through their own editorial and site checks; the master article additionally requires a Public overview, Public companion, matching approved fingerprints and a passing build/live readback. Social premieres run on their own schedule; reference recuts require separate approval.
