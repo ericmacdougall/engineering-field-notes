@@ -1,0 +1,1 @@
+Synthetic release artifact: entitlement rule v1, no executable deployment payload.
