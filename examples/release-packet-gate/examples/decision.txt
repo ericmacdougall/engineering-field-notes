@@ -1,0 +1,1 @@
+Fictional decision: tenant migration-001 may use the feature only through 2026-11-30. Other tenants require an active paid entitlement. Owner: product-lead.

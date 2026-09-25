@@ -1,0 +1,33 @@
+{
+  "phase": "promotion",
+  "as_of": "2026-09-25T08:00:00Z",
+  "decision_file": "decision.txt",
+  "artifact_file": "artifact.txt",
+  "expected_issuer": "protected-ci-app",
+  "max_age_hours": 2,
+  "required_cohort": "migration-001-and-nonentitled-control",
+  "evidence": {
+    "intent": {
+      "status": "PASS",
+      "issuer": "protected-ci-app",
+      "decision_sha256": "22a405027cbec02e9c394d4488fc2f8316c641c10501b320856e4b7980968ea8",
+      "artifact_sha256": "bf1f5aee6037d396f4de49289b5b71d91aea126537c3dc08cc664711aac62734",
+      "observed_at": "2026-09-25T07:30:00Z"
+    },
+    "behavior": {
+      "status": "PASS",
+      "issuer": "protected-ci-app",
+      "decision_sha256": "22a405027cbec02e9c394d4488fc2f8316c641c10501b320856e4b7980968ea8",
+      "artifact_sha256": "bf1f5aee6037d396f4de49289b5b71d91aea126537c3dc08cc664711aac62734",
+      "observed_at": "2026-09-25T07:30:00Z"
+    },
+    "operation": {
+      "status": "PASS",
+      "issuer": "protected-ci-app",
+      "decision_sha256": "22a405027cbec02e9c394d4488fc2f8316c641c10501b320856e4b7980968ea8",
+      "artifact_sha256": "bf1f5aee6037d396f4de49289b5b71d91aea126537c3dc08cc664711aac62734",
+      "observed_at": "2026-09-25T07:30:00Z",
+      "cohort": "migration-001-and-nonentitled-control"
+    }
+  }
+}
