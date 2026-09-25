@@ -1,0 +1,28 @@
+{
+  "exercise": "fictional-billing-migration",
+  "candidate": "synthetic-example-only",
+  "reviewers": [
+    {
+      "id": "reviewer-a",
+      "scores": {
+        "technical_fundamentals": {"score": 3, "evidence": "Traced producer, queue, old reader and replay boundary."},
+        "architecture_ownership": {"score": 3, "evidence": "Named consumer owners and a reversible version window."},
+        "independent_verification": {"score": 4, "evidence": "Specified an old-event replay with an independent expected outcome."},
+        "business_priority": {"score": 3, "evidence": "Compared a maintained scheduling product with custom lifetime ownership."},
+        "focus_orchestration": {"score": 3, "evidence": "Paused migration while alert impact was established."},
+        "handoff_revision": {"score": 3, "evidence": "Changed release decision after late consumer fact and documented uncertainty."}
+      }
+    },
+    {
+      "id": "reviewer-b",
+      "scores": {
+        "technical_fundamentals": {"score": 3, "evidence": "Explained queue replay and compatibility path."},
+        "architecture_ownership": {"score": 3, "evidence": "Called for a consumer-owned cutover decision."},
+        "independent_verification": {"score": 2, "evidence": "Replay idea was sound, but expected outcome was not sufficiently specified."},
+        "business_priority": {"score": 3, "evidence": "Accounted for maintenance and diverted sales time."},
+        "focus_orchestration": {"score": 3, "evidence": "Reserved review time and deferred overlapping migration work."},
+        "handoff_revision": {"score": 3, "evidence": "Updated plan after new fact and named release owner."}
+      }
+    }
+  ]
+}
