@@ -1,7 +1,7 @@
 # Week 01 — Agents need an independent exam
 
 <!-- ARTICLE_START -->
-**Article:** draft. A public article link will be added here and to the root README after the weekly release is verified live.
+**Article:** Eric authorized immediate journal publication of approved Week 01 material on 2026-09-25. Add the public article link here and to the root README after its live site readback.
 <!-- ARTICLE_END -->
 
 ## The claim
