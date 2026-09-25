@@ -1,0 +1,66 @@
+{
+  "approved_fallback_routes": [
+    {
+      "name": "reviewed-secondary-for-public-synthetic",
+      "owner": "route-policy-owner",
+      "approved": true,
+      "active": true,
+      "permitted_use_reviewed": true,
+      "data_agreement_reviewed": true,
+      "legal_use_reviewed": true,
+      "task_classes": ["fictional-report-triage"],
+      "data_classes": ["synthetic-public"]
+    }
+  ],
+  "cases": [
+    {
+      "id": "case-refused",
+      "task_class": "fictional-report-triage",
+      "data_class": "synthetic-public",
+      "requested_action": "open-review-ticket",
+      "actor_allowed_actions": ["open-review-ticket"],
+      "owner": "security-review-queue",
+      "upstream": {"kind": "refused"}
+    },
+    {
+      "id": "case-public-route-loss",
+      "task_class": "fictional-report-triage",
+      "data_class": "synthetic-public",
+      "requested_action": "open-review-ticket",
+      "actor_allowed_actions": ["open-review-ticket"],
+      "owner": "security-review-queue",
+      "upstream": {"kind": "unavailable"}
+    },
+    {
+      "id": "case-sensitive-route-loss",
+      "task_class": "fictional-report-triage",
+      "data_class": "restricted-internal",
+      "requested_action": "open-review-ticket",
+      "actor_allowed_actions": ["open-review-ticket"],
+      "owner": "security-review-queue",
+      "upstream": {"kind": "unavailable"}
+    },
+    {
+      "id": "case-missing-evidence",
+      "task_class": "fictional-report-triage",
+      "data_class": "synthetic-public",
+      "requested_action": "open-review-ticket",
+      "actor_allowed_actions": ["open-review-ticket"],
+      "owner": "security-review-queue",
+      "upstream": {"kind": "completed", "classification": "review-needed"}
+    },
+    {
+      "id": "case-valid-for-review",
+      "task_class": "fictional-report-triage",
+      "data_class": "synthetic-public",
+      "requested_action": "open-review-ticket",
+      "actor_allowed_actions": ["open-review-ticket"],
+      "owner": "security-review-queue",
+      "upstream": {
+        "kind": "completed",
+        "classification": "review-needed",
+        "evidence_id": "synthetic-evidence-001"
+      }
+    }
+  ]
+}
