@@ -1,7 +1,7 @@
 # Week 02 — Model consensus is not engineering evidence
 
 <!-- ARTICLE_START -->
-**Article:** Eric approved the article and overview film on 2026-09-25. Publication is planned no earlier than 2026-10-12 Pacific time. Add the verified public article URL here and to the root README only after the weekly release gate passes.
+**Article:** Eric approved the article and overview film on 2026-09-25 and authorized immediate journal publication of approved Week 01 and Week 02 work. Add the article URL here and to the root README after its live site readback.
 <!-- ARTICLE_END -->
 
 ## The claim
@@ -18,8 +18,8 @@ Two capable models can converge on a polished implementation when both lack the 
 
 The local example proves only that **its** normal synthetic implementation satisfies **its** owner-labeled fixtures and two deliberate faults make the contract fail. It does not prove which migration policy a real organization should adopt or that a model pair failed on a real client system. Research on correlated errors is task-scoped; research finding debate gains on a bounded task is a genuine countercase. Sources and limits appear in the weekly article draft and [Kim et al. ICML 2025](https://proceedings.mlr.press/v267/kim25e.html), [Ki et al. ACL 2025](https://aclanthology.org/2025.acl-long.1210/), and [METR's 2026 update](https://metr.org/blog/2026-02-24-uplift-update/).
 
-## Publication gate
+## Site publication
 
-Eric approved all 28 original Week 02 daily cuts and their written reads, plus the Week 02 overview film and article, on 2026-09-25. That is editorial approval, not proof of publication; the 84 reference recuts remain pending separate review. This folder can be published and read back in the companion repository ahead of the article. Do not add a Week 02 release entry to `releases.json` yet.
+Eric approved all 28 original Week 02 daily cuts and their written reads, plus the Week 02 overview film and article, on 2026-09-25. He subsequently authorized immediate publication of that approved material on his journal while the social accounts keep their drip schedule. The 84 reference recuts remain pending separate review. Editorial approval does not itself establish that a page or video is public.
 
-The article release is planned for 2026-10-12 at 10:00 Pacific time or later. Its gate requires the approved film/article fingerprints, a verified Public overview film, verified Public YouTube copies of the related daily videos, and a publicly readable Week 02 companion README. Native social permalinks may be added when those posts are actually live; they are not a substitute for missing public readback. After the article is live and verified, update `releases.json`, run `scripts/build_release_readme.py`, and read back both the article and public repository links. A SaaS tool can maintain commodity implementation but does not replace the business policy owner.
+The approved article and all 28 original full reads can appear on the journal now. Its overview film already has a verified Public YouTube copy. A daily note embeds or links its YouTube edition only after that particular copy is verified Public; until then the approved written read can stand on its own. Native social permalinks appear only after the corresponding social post is live. Publish and read back this companion folder, the article, overview film, and daily pages before recording the site release in `releases.json` and running `scripts/build_release_readme.py`. A SaaS tool can maintain commodity implementation but does not replace the business policy owner.
