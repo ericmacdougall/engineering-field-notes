@@ -18,7 +18,7 @@ Typed output, logit masks, host hooks, business authority, tool permissions, obs
 
 The runnable example proves only its owner-labeled synthetic cases and deliberate mutations. It does not call Jev, implement token masking, enforce an actual coding-agent hook, validate a provider's inner loop, benchmark Kimi K3, or settle a real refund. The article cites the primary documentation and makes those boundaries explicit. Promote a proposed control only after its own real integration and independent state readback are observed.
 
-The approved [5:13 overview film](https://www.youtube.com/watch?v=pPL3ymAZ-rI) and exact spoken transcript are linked from the live journal article. The Kimi K3 figures discussed there—2.8T total parameters and 104B activated per token—are vendor specifications and memory arithmetic, not a local speed benchmark. A typed Jev choice or grammar can constrain form; the service must still own business action permission and read back its outcome.
+The corrected approved [5:11 overview film](https://www.youtube.com/watch?v=wKNvM_wMgYE) and exact spoken transcript are linked from the live journal article. The Kimi K3 figures discussed there—2.8T total parameters and 104B activated per token—are vendor specifications and memory arithmetic, not a local speed benchmark. A typed Jev choice or grammar can constrain form; the service must still own business action permission and read back its outcome.
 
 ## Publication rule
 
