@@ -1,7 +1,7 @@
 # Week 01 — Agents need an independent exam
 
 <!-- ARTICLE_START -->
-**Article:** Eric authorized immediate journal publication of approved Week 01 material on 2026-09-25. Add the public article link here and to the root README after its live site readback.
+**Article:** [Agents need an independent exam](https://ericmacdougall.com/journal/agents-need-an-independent-exam/) · released 2026-09-25 Pacific time.
 <!-- ARTICLE_END -->
 
 ## The claim
