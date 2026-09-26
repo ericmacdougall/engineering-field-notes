@@ -1,0 +1,4 @@
+option,license_per_month,infra_per_month,build_hours_per_month,maintenance_hours_per_month,support_hours_per_month,diverted_role_hours_per_month,hourly_loaded_cost,export_or_exit_cost,observed_customer_outcome,owner,review_date,notes
+maintained_tool,,,,,,,,,,,,
+internal_build,,,,,,,,,,,,
+stop_and_reassess,,,,,,,,,,,,
