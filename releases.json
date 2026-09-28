@@ -24,11 +24,91 @@
     "added": "model control contract, authority map and ten discriminating probes"
   },
   {
+    "week": 4,
+    "title": "The GPU number is not the compute product",
+    "article_url": "https://ericmacdougall.com/journal/the-gpu-number-is-not-the-compute-product/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:34.981991+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
     "week": 5,
     "title": "AI in industrial control needs physical evidence",
     "article_url": "https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/",
     "released_at_pt": "2026-09-25",
     "article_public_verified_at": "2026-09-25T18:25:27Z",
     "added": "physical-evidence oracle and ten discriminating probes"
+  },
+  {
+    "week": 6,
+    "title": "Your agentic workflow depends on other people’s rules",
+    "article_url": "https://ericmacdougall.com/journal/your-agentic-workflow-depends-on-other-peoples-rules/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.031256+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 7,
+    "title": "Hire engineers for the decisions",
+    "article_url": "https://ericmacdougall.com/journal/hire-engineers-for-the-decisions/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.023061+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 8,
+    "title": "The release gate is the product",
+    "article_url": "https://ericmacdougall.com/journal/the-release-gate-is-the-product/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.065305+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 9,
+    "title": "What computer-use agents can prove",
+    "article_url": "https://ericmacdougall.com/journal/what-computer-use-agents-can-prove/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.071311+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 10,
+    "title": "The attention drift bubble",
+    "article_url": "https://ericmacdougall.com/journal/the-attention-drift-bubble/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.068309+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 11,
+    "title": "The schema is green. The action is wrong.",
+    "article_url": "https://ericmacdougall.com/journal/where-jev-and-model-control-actually-live/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.075331+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 12,
+    "title": "The agent missed the one fact that mattered",
+    "article_url": "https://ericmacdougall.com/journal/the-agent-missed-the-one-fact-that-mattered/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.145926+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 13,
+    "title": "The agent timed out after the change went through",
+    "article_url": "https://ericmacdougall.com/journal/the-agent-timed-out-after-the-change-went-through/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.128252+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 14,
+    "title": "The demo worked. The engineering problem began afterward.",
+    "article_url": "https://ericmacdougall.com/journal/the-demo-worked-the-engineering-problem-began-afterward/",
+    "released_at_pt": "2026-09-25",
+    "article_public_verified_at": "2026-09-28T12:01:35.110732+00:00",
+    "added": "week-specific examples, sources and evidence boundaries"
   }
 ]

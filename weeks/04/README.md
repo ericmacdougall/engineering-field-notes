@@ -1,7 +1,7 @@
 # Week 04 — The GPU number is not the compute product
 
 <!-- ARTICLE_START -->
-**Article:** Eric-approved Week 04 field note; public master article link is added after its independent release readback. **Overview film:** [The GPU number is not the compute product](https://www.youtube.com/watch?v=wePsX_iWyT0), recorded Public in the campaign release manifest on 2026-09-25.
+**Article:** [The GPU number is not the compute product](https://ericmacdougall.com/journal/the-gpu-number-is-not-the-compute-product/) - released 2026-09-25 Pacific time. **Overview film:** [The GPU number is not the compute product](https://www.youtube.com/watch?v=wePsX_iWyT0), recorded Public in the campaign release manifest on 2026-09-25.
 <!-- ARTICLE_END -->
 
 ## The claim
@@ -37,4 +37,4 @@ The offer should distinguish whole-device, MIG-profile and time-sliced capacity.
 
 No real neocloud account, GPU, NCCL collective, Kubernetes/Slurm scheduler, fabric, invoice or customer workload was accessed for this kit. The synthetic price reversal is an arithmetic demonstration, not a vendor ranking. Before a production decision, align request and attempt IDs to authoritative allocation and billing records, reconcile credits and reserved charges, run the application on the exact placement class, and compare *observed* start/completion distributions with contractual terms.
 
-Eric approved the Week 04 article and overview editorially. The overview is recorded Public; this local companion can be published with the MIT repository only after its files, tests and links pass public readback. The master article's remaining gate requires a verified companion URL and site readback. Do not add the Week 04 entry to the root release list or claim the master article is live merely because these files exist locally.
+Eric approved the Week 04 article and overview. The article and MIT companion are Public; their links were independently rechecked on 2026-09-28. The overview has a verified Public YouTube copy. The production experiments and integration evidence described above remain pending.

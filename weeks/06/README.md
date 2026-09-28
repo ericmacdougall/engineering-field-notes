@@ -1,7 +1,7 @@
 # Week 06 — Your agentic workflow depends on other people's rules
 
 <!-- ARTICLE_START -->
-**Article:** Eric-approved Week 06 field note; public master article link is added after its independent release readback. **Overview film:** [Your agentic workflow depends on other people's rules](https://www.youtube.com/watch?v=qZndKypZ1Ms), recorded Public in the campaign release manifest on 2026-09-25.
+**Article:** [Your agentic workflow depends on other people’s rules](https://ericmacdougall.com/journal/your-agentic-workflow-depends-on-other-peoples-rules/) - released 2026-09-25 Pacific time. **Overview film:** [Your agentic workflow depends on other people's rules](https://www.youtube.com/watch?v=qZndKypZ1Ms), recorded Public in the campaign release manifest on 2026-09-25.
 <!-- ARTICLE_END -->
 
 ## The claim
@@ -32,4 +32,4 @@ For context, [OpenAI's published Usage Policies](https://openai.com/policies/usa
 
 The fictional security queue and five example cases are synthetic. The local tests do not call a provider, demonstrate refusal frequency, test a live ticketing system, exercise a real appeals process, or certify any legal conclusion. The next integration gate is a disposable queue fixture with an owner-labeled expected state and an independent readback of case status, actor authorization and side effects after each injected failure.
 
-Eric approved the Week 06 article and overview editorially. The overview is recorded Public; publish this companion folder to the MIT repository only after its normal and negative controls and public links pass readback. The master article's remaining gate requires a verified companion URL and site readback. Do not add a root release entry or mark the master article live merely because these local files are ready.
+Eric approved the Week 06 article and overview. The article and MIT companion are Public; their links were independently rechecked on 2026-09-28. The overview has a verified Public YouTube copy. The production experiments and integration evidence described above remain pending.

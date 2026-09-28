@@ -7,10 +7,20 @@ Working examples and decision records for [Eric MacDougall's field notes](https:
 The article link and the week's tested additions are entered here **when that article is publicly released**. The same release updates its companion folder and links the repo from the article.
 
 <!-- RELEASES_START -->
-- **2026-09-25 · Week 05: [AI in industrial control needs physical evidence](https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/)** — [physical-evidence oracle and ten discriminating probes](weeks/05/README.md)
-- **2026-09-25 · Week 03: [Where model control actually lives](https://ericmacdougall.com/journal/where-model-control-actually-lives/)** — [model control contract, authority map and ten discriminating probes](weeks/03/README.md)
-- **2026-09-25 · Week 02: [Model consensus is not engineering evidence](https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/)** — [migration decision contract, decision packet and ten discriminating probes](weeks/02/README.md)
-- **2026-09-25 · Week 01: [Agents need an independent exam](https://ericmacdougall.com/journal/agents-need-an-independent-exam/)** — [agent harness and commerce acceptance contracts](weeks/01/README.md)
+- **2026-09-25 - Week 14: [The demo worked. The engineering problem began afterward.](https://ericmacdougall.com/journal/the-demo-worked-the-engineering-problem-began-afterward/)** - [week-specific examples, sources and evidence boundaries](weeks/14/README.md)
+- **2026-09-25 - Week 13: [The agent timed out after the change went through](https://ericmacdougall.com/journal/the-agent-timed-out-after-the-change-went-through/)** - [week-specific examples, sources and evidence boundaries](weeks/13/README.md)
+- **2026-09-25 - Week 12: [The agent missed the one fact that mattered](https://ericmacdougall.com/journal/the-agent-missed-the-one-fact-that-mattered/)** - [week-specific examples, sources and evidence boundaries](weeks/12/README.md)
+- **2026-09-25 - Week 11: [The schema is green. The action is wrong.](https://ericmacdougall.com/journal/where-jev-and-model-control-actually-live/)** - [week-specific examples, sources and evidence boundaries](weeks/11/README.md)
+- **2026-09-25 - Week 10: [The attention drift bubble](https://ericmacdougall.com/journal/the-attention-drift-bubble/)** - [week-specific examples, sources and evidence boundaries](weeks/10/README.md)
+- **2026-09-25 - Week 09: [What computer-use agents can prove](https://ericmacdougall.com/journal/what-computer-use-agents-can-prove/)** - [week-specific examples, sources and evidence boundaries](weeks/09/README.md)
+- **2026-09-25 - Week 08: [The release gate is the product](https://ericmacdougall.com/journal/the-release-gate-is-the-product/)** - [week-specific examples, sources and evidence boundaries](weeks/08/README.md)
+- **2026-09-25 - Week 07: [Hire engineers for the decisions](https://ericmacdougall.com/journal/hire-engineers-for-the-decisions/)** - [week-specific examples, sources and evidence boundaries](weeks/07/README.md)
+- **2026-09-25 - Week 06: [Your agentic workflow depends on other people’s rules](https://ericmacdougall.com/journal/your-agentic-workflow-depends-on-other-peoples-rules/)** - [week-specific examples, sources and evidence boundaries](weeks/06/README.md)
+- **2026-09-25 - Week 05: [AI in industrial control needs physical evidence](https://ericmacdougall.com/journal/ai-in-industrial-control-needs-physical-evidence/)** - [physical-evidence oracle and ten discriminating probes](weeks/05/README.md)
+- **2026-09-25 - Week 04: [The GPU number is not the compute product](https://ericmacdougall.com/journal/the-gpu-number-is-not-the-compute-product/)** - [week-specific examples, sources and evidence boundaries](weeks/04/README.md)
+- **2026-09-25 - Week 03: [Where model control actually lives](https://ericmacdougall.com/journal/where-model-control-actually-lives/)** - [model control contract, authority map and ten discriminating probes](weeks/03/README.md)
+- **2026-09-25 - Week 02: [Model consensus is not engineering evidence](https://ericmacdougall.com/journal/model-consensus-is-not-engineering-evidence/)** - [migration decision contract, decision packet and ten discriminating probes](weeks/02/README.md)
+- **2026-09-25 - Week 01: [Agents need an independent exam](https://ericmacdougall.com/journal/agents-need-an-independent-exam/)** - [agent harness and commerce acceptance contracts](weeks/01/README.md)
 <!-- RELEASES_END -->
 
 ## Approved companion material
