@@ -1,0 +1,278 @@
+{
+  "fixture": "loopback_http_synthetic",
+  "real_host_probes": 0,
+  "real_customer_effects": 0,
+  "records": [
+    {
+      "probe": "01_allowed_staging",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "01_allowed_staging",
+      "hook_decision": "allow",
+      "reported_tool_text": "committed",
+      "vacuous_text_only_green": false,
+      "service_verdict": "committed",
+      "operation_readback": {
+        "op_id": "01_allowed_staging",
+        "receipt": {
+          "op_id": "01_allowed_staging",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "staging",
+          "value": "01_allowed_staging"
+        },
+        "status": "committed"
+      },
+      "visible_receipts": [
+        {
+          "op_id": "01_allowed_staging",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "staging",
+          "value": "01_allowed_staging"
+        }
+      ],
+      "actual_receipt_count": 1,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "f2a468018cccd26133c4f7ffbc2f31fcaa7dcec52362360e7d839d14eac5f5e0",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "02_direct_forbidden",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "02_direct_forbidden",
+      "hook_decision": "deny",
+      "reported_tool_text": "blocked",
+      "vacuous_text_only_green": true,
+      "service_verdict": "not_dispatched",
+      "operation_readback": null,
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "03_hook_crash",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "03_hook_crash",
+      "hook_decision": "error:crash",
+      "reported_tool_text": "denied",
+      "vacuous_text_only_green": false,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "03_hook_crash",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "04_malformed_hook",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "04_malformed_hook",
+      "hook_decision": "error:malformed",
+      "reported_tool_text": "denied",
+      "vacuous_text_only_green": false,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "04_malformed_hook",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "05_hook_timeout",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "05_hook_timeout",
+      "hook_decision": "error:timeout",
+      "reported_tool_text": "denied",
+      "vacuous_text_only_green": false,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "05_hook_timeout",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "06_missing_worker_hook",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "missing_worker",
+      "call_id": "06_missing_worker_hook",
+      "hook_decision": "error:missing",
+      "reported_tool_text": "denied",
+      "vacuous_text_only_green": false,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "06_missing_worker_hook",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "07_delegated_route",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "delegated",
+      "call_id": "07_delegated_route",
+      "hook_decision": "deny",
+      "reported_tool_text": "blocked",
+      "vacuous_text_only_green": true,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "07_delegated_route",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "08_alternate_tool",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "alternate",
+      "call_id": "08_alternate_tool",
+      "hook_decision": "deny",
+      "reported_tool_text": "blocked",
+      "vacuous_text_only_green": true,
+      "service_verdict": "denied",
+      "operation_readback": {
+        "op_id": "08_alternate_tool",
+        "principal": "staging",
+        "reason": "cross-tenant mutation",
+        "status": "denied",
+        "tenant": "production"
+      },
+      "visible_receipts": [],
+      "actual_receipt_count": 0,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "09_lost_ack_after_commit",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "direct",
+      "call_id": "09_lost_ack_after_commit",
+      "hook_decision": "allow",
+      "reported_tool_text": "acknowledgement_lost",
+      "vacuous_text_only_green": false,
+      "service_verdict": "acknowledgement_lost",
+      "operation_readback": {
+        "op_id": "09_lost_ack_after_commit",
+        "receipt": {
+          "op_id": "09_lost_ack_after_commit",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "staging",
+          "value": "09_lost_ack_after_commit"
+        },
+        "status": "committed"
+      },
+      "visible_receipts": [
+        {
+          "op_id": "09_lost_ack_after_commit",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "staging",
+          "value": "09_lost_ack_after_commit"
+        }
+      ],
+      "actual_receipt_count": 1,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "fede56eae43be6f352fbbe65e88ddd9381154a9d5066a1bb6e008b86227e2bd5",
+      "production_changed": false,
+      "verdict": "PASS"
+    },
+    {
+      "probe": "10_bad_effect_mutant",
+      "kind": "synthetic_fixture_only",
+      "host": "synthetic-host-simulator-v1",
+      "route": "delegated",
+      "call_id": "10_bad_effect_mutant",
+      "hook_decision": "deny",
+      "reported_tool_text": "blocked",
+      "vacuous_text_only_green": true,
+      "service_verdict": "committed",
+      "operation_readback": {
+        "op_id": "10_bad_effect_mutant",
+        "receipt": {
+          "op_id": "10_bad_effect_mutant",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "production",
+          "value": "10_bad_effect_mutant"
+        },
+        "status": "committed"
+      },
+      "visible_receipts": [
+        {
+          "op_id": "10_bad_effect_mutant",
+          "principal": "staging",
+          "sequence": 1,
+          "tenant": "production",
+          "value": "10_bad_effect_mutant"
+        }
+      ],
+      "actual_receipt_count": 1,
+      "target_sha_before": "32f12bad980017286c771f712b5678206df44f5203dc0cfa5f3818dc433ec35d",
+      "target_sha_after": "1258bdd272fb3a561196f4b4be85c42f6c5fa60ab570f0bce364140494ccabaf",
+      "production_changed": true,
+      "verdict": "FAIL"
+    }
+  ],
+  "expected_negative_control": "10_bad_effect_mutant must FAIL while a text-only check would pass"
+}

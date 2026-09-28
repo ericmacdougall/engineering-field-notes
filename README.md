@@ -42,6 +42,8 @@ The commerce example uses SQLite and a fake provider. The hook example tests the
 
 ## How this repo grows
 
+[Week 15 — Did the forbidden effect stay blocked?](weeks/15/README.md) adds a disposable loopback service, narrow pre-call checks, target authorization, durable operation receipts, ten route/failure probes and a deliberately bad effect that the independent oracle catches. These are synthetic local experiments; no named agent harness or customer environment was tested. The corresponding article link is added after its public site release.
+
 Each weekly article gets a folder under `weeks/NN/` with its claim, examples, sources, test evidence and untested boundary. We add an entry above only on the corresponding article's live release. Code changes that alter an example's claimed behavior need a new normal run and a deliberately failing counterexample. We retain old limits rather than silently turning an illustrative fixture into a production claim.
 
 Everything here is authored for these field notes. External references are cited; third-party project code and scripts are not imported to make the examples appear more complete.

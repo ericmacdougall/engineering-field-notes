@@ -1,0 +1,4 @@
+workflow,consequence,known_routes,verified_routes,adapter_upkeep_hours,fixture_upkeep_hours,reviewer_minutes,false_green_cases,false_red_cases,accepted_outcomes,operator_recovery_hours,measurement_source
+staging-to-production tenant change,,,,,,,,,,,
+shared staging acceptance run,,,,,,,,,,,
+low-risk draft note,,,,,,,,,,,
