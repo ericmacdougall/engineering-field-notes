@@ -110,5 +110,13 @@
     "released_at_pt": "2026-09-25",
     "article_public_verified_at": "2026-09-28T12:01:35.110732+00:00",
     "added": "week-specific examples, sources and evidence boundaries"
+  },
+  {
+    "week": 15,
+    "title": "Your hook ran. Did the forbidden action stay blocked?",
+    "article_url": "https://ericmacdougall.com/journal/your-hook-ran-did-the-forbidden-action-stay-blocked/",
+    "released_at_pt": "2026-09-28",
+    "article_public_verified_at": "2026-09-28T22:27:14.797079+00:00",
+    "added": "target-authorized loopback fixture, durable receipts and ten route/failure probes"
   }
 ]

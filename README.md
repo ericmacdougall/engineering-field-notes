@@ -7,6 +7,7 @@ Working examples and decision records for [Eric MacDougall's field notes](https:
 The article link and the week's tested additions are entered here **when that article is publicly released**. The same release updates its companion folder and links the repo from the article.
 
 <!-- RELEASES_START -->
+- **2026-09-28 - Week 15: [Your hook ran. Did the forbidden action stay blocked?](https://ericmacdougall.com/journal/your-hook-ran-did-the-forbidden-action-stay-blocked/)** - [target-authorized loopback fixture, durable receipts and ten route/failure probes](weeks/15/README.md)
 - **2026-09-25 - Week 14: [The demo worked. The engineering problem began afterward.](https://ericmacdougall.com/journal/the-demo-worked-the-engineering-problem-began-afterward/)** - [week-specific examples, sources and evidence boundaries](weeks/14/README.md)
 - **2026-09-25 - Week 13: [The agent timed out after the change went through](https://ericmacdougall.com/journal/the-agent-timed-out-after-the-change-went-through/)** - [week-specific examples, sources and evidence boundaries](weeks/13/README.md)
 - **2026-09-25 - Week 12: [The agent missed the one fact that mattered](https://ericmacdougall.com/journal/the-agent-missed-the-one-fact-that-mattered/)** - [week-specific examples, sources and evidence boundaries](weeks/12/README.md)
@@ -42,7 +43,7 @@ The commerce example uses SQLite and a fake provider. The hook example tests the
 
 ## How this repo grows
 
-[Week 15 — Did the forbidden effect stay blocked?](weeks/15/README.md) adds a disposable loopback service, narrow pre-call checks, target authorization, durable operation receipts, ten route/failure probes and a deliberately bad effect that the independent oracle catches. These are synthetic local experiments; no named agent harness or customer environment was tested. The corresponding article link is added after its public site release.
+[Week 15 — Did the forbidden effect stay blocked?](weeks/15/README.md) adds a disposable loopback service, narrow pre-call checks, target authorization, durable operation receipts, ten route/failure probes and a deliberately bad effect that the independent oracle catches. These are synthetic local experiments; no named agent harness or customer environment was tested. The [article and complete overview film](https://ericmacdougall.com/journal/your-hook-ran-did-the-forbidden-action-stay-blocked/) are now public, with all 28 related written reads.
 
 Each weekly article gets a folder under `weeks/NN/` with its claim, examples, sources, test evidence and untested boundary. We add an entry above only on the corresponding article's live release. Code changes that alter an example's claimed behavior need a new normal run and a deliberately failing counterexample. We retain old limits rather than silently turning an illustrative fixture into a production claim.
 

@@ -36,4 +36,8 @@ To demonstrate why the service backstop matters, set `W15_MUTANT_AUTH=1` **only 
 
 Each evidence record includes a call ID, synthetic host label, simulated hook decision, service result, operation readback, receipts, before/after target SHA and verdict. These are **local test results**, not a benchmark or a claim about real customers. See [`route-matrix.md`](route-matrix.md) for the fields a real host probe must fill, and [`cost-ledger.csv`](cost-ledger.csv) for blank local operating inputs.
 
-The approved article and overview are being released on [Eric's journal](https://ericmacdougall.com/). This folder will link their exact public URLs after the site release is verified. The source examples and their measured limits are available here now.
+<!-- ARTICLE_START -->
+**Article:** [Your hook ran. Did the forbidden action stay blocked?](https://ericmacdougall.com/journal/your-hook-ran-did-the-forbidden-action-stay-blocked/) · released September 28, 2026, Pacific time.
+<!-- ARTICLE_END -->
+
+The article includes the complete overview film, full transcript, all 28 related reads, source links and the limits of the synthetic examples. [Direct approved overview MP4](https://ericmacdougall.com/media/campaign/major-15.mp4). Narration uses Eric's authorized AI voice clone. A YouTube upload is still pending; the first-party film is public now.
